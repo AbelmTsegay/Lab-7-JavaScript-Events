@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+}
+.mouse{
+    background-color: aqua;
+}
+.keyboard{
+    background-color: red;
+}
+
+.form{
+    background-color: yellow;
+}
+.foBl{
+    background-color: lightcoral;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+    padding: 10px;
+    width: 100%; 
+    }
