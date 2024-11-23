@@ -30,4 +30,12 @@ function focusFunction(){
 
 function blurFunction(){
     document.getElementById("lastName").style.background = "orange";
-};
+}
+
+let delegationbutton = document.getElementById("delegation");
+
+delegationbutton.addEventListener("click", function(event){
+    if (event.target.tagName === "BUTTON"){
+        alert("You pressed" + event.target.textContent);
+    }
+})
