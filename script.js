@@ -23,3 +23,11 @@ form.addEventListener("submit",function(event) {
     event.preventDefault();
     alert(`your name is: ${document.getElementById("name").value}`);
 });
+
+function focusFunction(){
+    document.getElementById("lastName").style.background = "green";
+}
+
+function blurFunction(){
+    document.getElementById("lastName").style.background = "orange";
+};
